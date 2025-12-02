@@ -5,12 +5,11 @@
    <meta charset="utf-8">
    <style>
     html{background:grey;font-family:sans-serif;font-size:11px;}
-	body{width:1000px;background:white;display:flex;margin:5px;}
+	body{width:1100px;background:white;display:flex;margin:auto;}
 	ul{padding:5px;}
 	h3{color:#a0bc94;}
 	
 	#izquierda img{width:100%;}
-	#izquierda img#favicono{width:11px;padding:2px;}
 	#izquierda{flex:1;background:#086b5c;padding:20px;color:black;}
 	
 	#derecha{flex:4;padding:20px;background:#889996;}
@@ -21,16 +20,15 @@
 /* Contenedor */
 div#contenedor_derecha {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   grid-auto-flow: row;
-  justify-items: start;
+  justify-items: stretch;
   align-items: stretch;
   justify-content: start;
   align-content: start;
   width:800px;
   height:450px;
-  gap:20px;
 }
 
 /* Items */
@@ -39,7 +37,7 @@ div#contenedor_derecha {
 	div#Titulos{color:#02493e;text-align:center;}
 	div#Titulos img{display:flex;margin:auto;}
 
-	div#sobre-mi{display:flex;flex:2;gap:20px;}
+	div#sobre-mi{display:flex;flex:2;}
  div#sobre-mi h1,h3{margin:auto;padding:5px;}
 	
 	div#experencia{display:flex;flex:1;}
@@ -51,27 +49,27 @@ div#contenedor_derecha {
    <section id="izquierda">
     <img src="ImagenFormaldeBryanGlotFong.jpg" alt="ImagenDeCurriculum">
     <article>
-	    <h3>Contacto</h3>
-	    <ul>
-	     <ul><img id="favicono" src="telefono.png" alt="icon de telefono">677865724</ul>
-	     <ul><img id="favicono" src="email.png" alt="icon de telefono">bryanalexanderglotfong@alu.ceacfp.es</ul>
-	     <ul><img id="favicono" src="locacion.png" alt="icon de telefono">46025 Valencia</ul>
-	    </ul>
-       </article>
-       <article>
-	    <h3>Formación</h3>
-	    <ul>
-	     <ul>2023-2025</ul>
-	     <ul><b>Bachillerato De Ciencias</b></ul>
-	     <ul><i>IES El Clot, Valencia</i></ul>
-	     <ul>Ampliación de conocimientos generales en diferentes áreas como Ingeniería Básica y Matemáticas</ul>
-	    </ul>
-	    <ul>
-	     <ul>2022</ul>
-	     <ul><b>Web Designing Course</b></ul>
-	     <ul><i>ICSA, Kuwait</i></ul>
-	     <ul>Desarrollo en lenguajes de marca como HTML con CSS y Bootstrap básico</ul>
-	    </ul>	  
+	 <h3>Contacto</h3>
+	 <ul>
+	  <li>677865724</li>
+	  <li>bryanalexanderglotfong@alu.ceacfp.es</li>
+	  <li>46025 Valencia</li>
+	 </ul>
+    </article>
+    <article>
+	 <h3>Formación</h3>
+	 <ul>
+	  <li>2023-2025</li>
+	  <li><b>Bachillerato De Ciencias</b></li>
+	  <li><i>IES El Clot, Valencia</i></li>
+	  <li>Ampliación de conocimientos generales en diferentes áreas como Ingeniería Básica y Matemáticas</li>
+	 </ul>
+	 <ul>
+	  <li>2022</li>
+	  <li><b>Web Designing Course</b></li>
+	  <li><i>ICSA, Kuwait</i></li>
+	  <li>Desarrollo en lenguajes de marca como HTML con CSS y Bootstrap básico</li>
+	 </ul>	 
     </article>
    </section>
   
@@ -86,9 +84,8 @@ div#contenedor_derecha {
   <h1>Sobre Mi</h1>
   <p>
   Soy una persona que puede alcanzar <br>
-   sus objetivos y mejorar problemas siguiendo ciertos criterios. Me gusta investigar y analizar diferentes 
-   <br>
-   temas.
+   sus objetivos y mejorar problemas siguiendo ciertos <br>
+   criterios. Me gusta investigar y analizar diferentes temas.
   <br><br>
  Ahora estoy estudiando un Grado Superior en <br>
   Desarrollo de Aplicaciones Multiplataforma, lo <br>
@@ -96,7 +93,7 @@ div#contenedor_derecha {
     sitios web personales. Espero crecer tanto <br>
      personalmente como en cooperación con otros.</p>
      
- 	<h3>Experiencia </h3>
+ 	 <h3>Experiencia </h3>
 	 
 	 <article>
 	  <img src="bgf-favicon.png">
