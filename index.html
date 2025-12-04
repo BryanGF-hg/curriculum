@@ -1,3 +1,4 @@
+
 <!DOCTYPE HTML>
 <html lang="es">
  <head>
@@ -8,7 +9,7 @@
     html{background:white;font-family:sans-serif;font-size:11px;}
 	body{width:1000px;background:white;display:flex;margin:5px;}
 	ul{padding:5px;}
-	h3{color:#FD6F2F;}
+	h2,h3{color:#FD6F2F;}
 	
 	#izquierda img{width:100%;}
 	#izquierda img#favicono{width:11px;padding:2px;}
@@ -41,29 +42,27 @@ div#contenedor_derecha {
 	div#Titulos h2{color:#FD6F2F;text-align:center;}	
 	div#Titulos img{display:flex;margin:auto;}
 
-	div#sobre-mi{display:flex;flex:2;gap:20px;}
- div#sobre-mi h1{color:#FD6F2F;margin:auto;padding:5px;}
+    div#sobre-mi h1{color:#FD6F2F;margin:auto;padding:5px;}
 	div#sobre-mi h1,h3{margin:auto;padding:5px;}
 	
-	div#experencia{display:flex;flex:1;}
+	div#experencia{display:flex;flex-direction:row;}
+	div#experencia h2,h3{display:flex;margin:auto;}
 	
-nav{
- display:flex;
- }
+	nav{ display:flex;}
 
 
    </style>
  </head>
+  <nav>
+   <ul><a href="https://github.com/BryanGF-hg">Github</a></ul>
+   <ul><a href="https://github.com/BryanGF-hg/curriculum">Repositorio</a></ul>
+   <ul><a href="https://bryangf-hg.github.io/web/">Web</a></ul>
+</nav>
  <body>
-    <nav>
-      <ul><a href="https://github.com/BryanGF-hg">Github</a></ul>
-	  <ul><a href="https://bryangf-hg.github.io/curriculum/">Repositorio</a></ul>
-	  <ul><a href="https://bryangf-hg.github.io/web/">Web</a></ul>
-	</nav>
    <section id="izquierda">
     <img src="ImagenFormaldeBryanGlotFong.jpg" alt="ImagenDeCurriculum">
     <article>
-	    <h3>Contacto</h3>
+	    <h2>Contacto</h2>
 	    <ul>
 	     <ul><img id="favicono" src="telefono.png" alt="icon de telefono">677865724</ul>
 	     <ul><img id="favicono" src="email.png" alt="icon de telefono">bryanalexanderglotfong@alu.ceacfp.es</ul>
@@ -71,7 +70,7 @@ nav{
 	    </ul>
        </article>
        <article>
-	    <h3>Formación</h3>
+	    <h2>Formación</h2>
 	    <ul>
 	     <ul>2023-2025</ul>
 	     <ul><b>Bachillerato De Ciencias</b></ul>
@@ -107,28 +106,30 @@ nav{
    que me ayudará a crear herramientas útiles y <br>
     sitios web personales. Espero crecer tanto <br>
      personalmente como en cooperación con otros.</p>
-     
- 	<h3>Experiencia </h3>
-	 
-	 <article>
-	  <img src="bgf-favicon.png">
-	  <div class="texto">
-	  <h4>Puesto</h4>
-	  <h5>Inicio - Final - Empresa</h5>
-	  <p>Descripción del puesto: </p>
-	  </div>
-	 </article>
-	 
-	 <article>
-	  <img src="bgf-favicon.png">
-	  <div class="texto">
-	  <h4>Puesto</h4>
-	  <h5>Inicio - Final - Empresa</h5>
-	  <p>Descripción del puesto: </p>
-	  </div>
-	 </article>
-	     
  </div>
+    
+  <div id="experencia">	
+	<h2>Experiencia </h2>
+	 
+	 <article>
+	  <img src="bgf-favicon.png">
+	  <div class="texto">
+	  <h4>Puesto</h4>
+	  <h5>Inicio - Final - Empresa</h5>
+	  <p>Descripción del puesto: </p>
+	  </div>
+	 </article>
+	 
+	 <article>
+	  <img src="bgf-favicon.png">
+	  <div class="texto">
+	  <h4>Puesto</h4>
+	  <h5>Inicio - Final - Empresa</h5>
+	  <p>Descripción del puesto: </p>
+	  </div>
+	 </article>
+  </div>	     
+
 	</div>
 	
 	
