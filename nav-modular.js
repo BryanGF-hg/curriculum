@@ -5,7 +5,7 @@
   if (customElements.get('site-nav')) return;
 
   const LINKS = [
-    { label: 'Descarga del Currículum', href: 'https://drive.google.com/file/d/1h273p-txIPG-TYmrIDisHd2sbt0wPg19/view?usp=sharing', id: 'enlace_de_descarga', primary: true },
+    { label: 'Descarga del Currículum', href: 'https://drive.google.com/file/d/14Se06f0c0uohh1LpYelg_1c0K56uGte-/view?usp=sharing', id: 'enlace_de_descarga', primary: true },
     { label: 'Portafolio', href: 'https://bryangf-hg.github.io/portafolio/' },
     { label: 'Web', href: 'https://bryangf-hg.github.io/web/' },
     { label: 'GitHub', href: 'https://github.com/BryanGF-hg' },
